@@ -1,0 +1,7 @@
+num=65
+for i in range(9999): 
+    for j in range(i+1):
+        dbz=chr(num)
+        print(dbz,end='')
+        num=num+1
+    print('\r')
